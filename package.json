@@ -1,0 +1,23 @@
+{
+  "name": "step-house-game",
+  "version": "0.1.0",
+  "description": "A gamified fitness app with GPS tracking and virtual house customization",
+  "main": "index.js",
+  "scripts": {
+    "dev:mobile": "cd mobile && expo start",
+    "dev:backend": "cd backend && npm run dev",
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:mobile\""
+  },
+  "keywords": [
+    "fitness",
+    "gamification",
+    "gps",
+    "step-tracking",
+    "weather"
+  ],
+  "author": "caitlinwilkinson24-dot",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
